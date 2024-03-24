@@ -3,7 +3,7 @@ import React from 'react';
 function MyButton() {
     return (
       <button className="btn--port">
-      Contact
+      MY WORK
       </button>
     );
 }
@@ -14,10 +14,9 @@ export default function Home () {
 
         <div className='title--and--logo'>
           <div className='home--titles'>
+            <div className='location--title'>🇨🇦 Toronto / London ON</div>
             <h1>Jennifer Cao</h1>
             <h3>Full-Stack / Graphic Design</h3>
-            <br></br>
-            <br></br>
             <MyButton />
           </div>
 
