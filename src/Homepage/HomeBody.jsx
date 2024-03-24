@@ -18,7 +18,7 @@ export default function HomeBody() {
                 </div>
 
                 <div className='homebody--feat'>
-                    
+                    <img src='https://media.tenor.com/p34oU47DQ-8AAAAe/monkey-conduciendo.png'></img>
                 </div>
             </div>
         </div>

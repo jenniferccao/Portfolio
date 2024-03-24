@@ -8,23 +8,23 @@ import Portfolio from './Homepage/Pages/Portfolio'; // Assuming this is the corr
 import Contact from './Homepage/Pages/Contact'; // Assuming this is the correct path
 import './App.css';
 
-// If using the approach of wrapping Home and HomeBody in a single component
-const HomePage = () => (
-  <div className="home-content">
-    <Home />
-    <HomeBody />
-  </div>
-);
-
 export default function MyApp() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={
+            <div className="home-content">
+              <Home />
+              <HomeBody />
+            </div>
+          } />
+          {/* Use the element prop for Portfolio and Contact */}
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
