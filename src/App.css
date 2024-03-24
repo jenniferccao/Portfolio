@@ -1,0 +1,31 @@
+/* Global CSS */
+
+.banner--container {
+  width: 100%;
+  height: 500px;
+  background-image: url('https://media.tenor.com/p34oU47DQ-8AAAAe/monkey-conduciendo.png');
+  margin-top: 50px;
+}
+
+.home--titles {
+  background-color: white;
+  align-content: center;
+  width: 70%;
+  margin-left: 12%;
+  padding: 20px;
+  position: relative;
+}
+
+.btn--container {
+  width: 300px;
+  min-height: 150px;
+}
+
+.btn--port {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border-color: aliceblue;
+  border-style: solid;
+  border-radius: 10px;
+}
