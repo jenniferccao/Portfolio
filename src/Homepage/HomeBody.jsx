@@ -13,14 +13,13 @@ export default function HomeBody() {
 
                 <div className='homebody--content'>
                     <div className='homebody--text'>
-                            Hi! 👋 I'm Jen, a student at the University of Western Ontario pursuing a <b>dual degree in Computer Science and Business Administration</b>. Beyond tech, I enjoy music, fitness, and aviation.
+                            Hi! 👋 I'm Jen, a student at the University of Western Ontario pursuing a <b>dual degree in Computer Science and Business Administration</b>. 
                             <br></br>
                             <br></br>
-                            Lorum ipsum dolor sit amet
-                    </div>
-
-                    <div className='homebody--feat'>
-                        
+                            I am interested in frontend/full-stack internship opportunities.
+                            <br></br>
+                            <br></br>
+                            Beyond tech, I enjoy photography, music, fitness, and aviation.
                     </div>
                 </div>
     

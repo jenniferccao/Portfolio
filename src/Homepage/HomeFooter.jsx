@@ -6,20 +6,25 @@ export default function HomeFooter() {
 
     return (
         <div className='footer--container' id="contact">
-            <div className='footer--icons'>
-                <a className='icon' href='https://github.com/jenniferccao' target='_blank'>
-                    <img src='/github.png'></img>
-                </a>
+            <div className='footer--icon--box'>
+                <div className='footer--icons'>
+                    <a className='icon' href='https://github.com/jenniferccao' target='_blank'>
+                        <img src='/github.png'></img>
+                    </a>
 
-                <a className='icon' href='https://www.linkedin.com/in/jenniferrcao/' target='_blank'>
-                    <img src='/linkedin.png'></img>
-                </a>
+                    <a className='icon' href='https://www.linkedin.com/in/jenniferrcao/' target='_blank'>
+                        <img src='/linkedin.png'></img>
+                    </a>
 
-                <a className='icon' href='https://dribbble.com/jencao' target='_blank'>
-                    <img src='/dribbble.png'></img>
-                </a>
+                    <a className='icon' href='https://dribbble.com/jencao' target='_blank'>
+                        <img src='/dribbble.png'></img>
+                    </a>
+                </div>
+            </div>
+    
 
-                    
+            <div className='footer--text'>
+                Jennifer Cao 2024
             </div>
         </div>
     );
