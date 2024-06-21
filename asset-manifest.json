@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/jencao/static/css/main.55fe8675.css",
-    "main.js": "/jencao/static/js/main.6fdbe76a.js",
+    "main.js": "/jencao/static/js/main.fab9cc6e.js",
     "index.html": "/jencao/index.html",
     "main.55fe8675.css.map": "/jencao/static/css/main.55fe8675.css.map",
-    "main.6fdbe76a.js.map": "/jencao/static/js/main.6fdbe76a.js.map"
+    "main.fab9cc6e.js.map": "/jencao/static/js/main.fab9cc6e.js.map"
   },
   "entrypoints": [
     "static/css/main.55fe8675.css",
-    "static/js/main.6fdbe76a.js"
+    "static/js/main.fab9cc6e.js"
   ]
 }
