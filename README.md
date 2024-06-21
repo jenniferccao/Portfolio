@@ -2,4 +2,4 @@
 
 Very much a work in progress lol
 
-https://jenniferccao.github.io/Portfolio/
+https://jenniferccao.github.io/jencao/
